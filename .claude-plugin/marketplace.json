@@ -1,0 +1,113 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dragon-skills",
+  "description": "A curated collection of 44 Claude Code skills covering content creation, image generation, development tools, data analysis, knowledge management, markdown processing, and multimedia research.",
+  "owner": {
+    "name": "DragonL641"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "content-creation",
+      "description": "Content creation and writing skills: AI writing assistant, blog post writer, content digest, article review, branded content, commercial brief, content rewriting, podcast script generation, topic scouting, topic spinoff, and tech panel.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./ai-writing-assistant",
+        "./blog-post-writer",
+        "./content-digest",
+        "./article-review",
+        "./branded-content",
+        "./commercial-brief",
+        "./content-rewriting-2601",
+        "./podcast-script-generator",
+        "./topic-scout",
+        "./topic-spinoff",
+        "./your-tech-panel"
+      ]
+    },
+    {
+      "name": "image-design",
+      "description": "Image generation and visual design skills: AI image generation, logo creation, article covers, illustrations, infographics, slides, Xiaohongshu images, comics, storyboards, skill factory, and frontend UI design.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./image-generate",
+        "./image-brand-to-logo",
+        "./image-article-to-cover",
+        "./image-article-to-illustration",
+        "./image-content-to-infographic",
+        "./image-content-to-slides",
+        "./image-content-to-xhs",
+        "./image-story-to-comic",
+        "./image-story-to-storyboard",
+        "./image-skill-factory",
+        "./frontend-ui-designer"
+      ]
+    },
+    {
+      "name": "dev-tools",
+      "description": "Development and operations tools: Playwright browser automation, project health checks, Kubernetes ops assistant, product management, and CS knowledge documentation.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./playwright-cli",
+        "./project-checkup",
+        "./ops-assistant",
+        "./my-product-manager",
+        "./cs-knowledge-doc"
+      ]
+    },
+    {
+      "name": "data-analysis",
+      "description": "Data analysis and aggregation skills: full-pipeline data analysis, RSS feed aggregation, remote job tracking, US stock morning brief, and product strategy analysis.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./data-analysis",
+        "./rss-aggregator",
+        "./workingnomads-jobs",
+        "./stock-US-morning-brief",
+        "./product-strategy-analyzer"
+      ]
+    },
+    {
+      "name": "knowledge-management",
+      "description": "Personal knowledge and memory management: record, query, file scanning, weekly digest, and monthly review for an AI-powered memory system.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./mem-record",
+        "./mem-query",
+        "./mem-file-scan",
+        "./mem-weekly",
+        "./mem-monthly"
+      ]
+    },
+    {
+      "name": "markdown-tools",
+      "description": "Markdown processing tools: CJK layout optimization with typography fixes and markdown-to-HTML conversion with WeChat-compatible themes.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./md-cjk-layout-optimize",
+        "./md-optimized-to-html"
+      ]
+    },
+    {
+      "name": "multimedia-research",
+      "description": "Multimedia creation and research tools: Draw.io diagrams, deep multi-source research, skill discovery, MCP server discovery, and Remotion video generation.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./drawio",
+        "./deep-research",
+        "./find-skills",
+        "./find-mcps",
+        "./remotion-video"
+      ]
+    }
+  ]
+}

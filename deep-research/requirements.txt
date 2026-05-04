@@ -1,0 +1,13 @@
+# Deep Research Skill Dependencies
+#
+# Core: Python 3.9+ standard library only.
+#
+# Required for built-in search engine:
+#   httpx>=0.27       # async HTTP for multi-provider search
+#   Install: pip install httpx
+#
+# Optional:
+#   curl_cffi>=0.7    # stealth provider TLS impersonation
+#   Install: pip install curl_cffi
+#   weasyprint        # PDF generation from HTML reports
+#   Install: pip install weasyprint

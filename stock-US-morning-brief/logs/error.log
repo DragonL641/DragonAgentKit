@@ -1,0 +1,797 @@
+2026-04-20 21:36:23,555 [INFO] run: ============================================================
+2026-04-20 21:36:23,556 [INFO] run: Stock US Morning Brief - Starting
+2026-04-20 21:36:23,559 [INFO] run: Step 1: Loading configuration
+2026-04-20 21:36:23,560 [INFO] run: Found 3 active recipient(s)
+2026-04-20 21:36:23,560 [INFO] run: Step 2: Merging recipient settings
+2026-04-20 21:36:23,560 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'education', 'aerospace_defense', 'semiconductor_ai', 'machinery'}, Max news: 10
+2026-04-20 21:36:23,560 [INFO] run: Step 3: Fetching market data
+2026-04-20 21:38:01,999 [INFO] run: Got 4 holdings, 4 indices
+2026-04-20 21:38:02,000 [INFO] run: Step 4: Fetching news
+2026-04-20 21:38:02,001 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-20 21:38:05,287 [INFO] run: Got 10 news items
+2026-04-20 21:38:05,289 [INFO] run: Step 5: Building global metrics
+2026-04-20 21:38:05,295 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-20 21:38:18,201 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 21:38:27,266 [INFO] run: Summary generated: 732 chars
+2026-04-20 21:38:27,267 [INFO] run: Step 7: Building report data
+2026-04-20 21:38:27,267 [INFO] run: Step 8: Sending report
+2026-04-20 21:38:27,269 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-20 21:38:29,135 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 21:42:30,032 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-20 21:42:30,032 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-20 21:42:34,504 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 21:44:56,069 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-20 21:44:56,071 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-20 21:44:57,893 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 21:50:42,140 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-20 21:50:42,142 [INFO] run: Report sending complete
+2026-04-20 23:00:05,865 [INFO] run: ============================================================
+2026-04-20 23:00:05,866 [INFO] run: Stock US Morning Brief - Starting
+2026-04-20 23:00:05,867 [INFO] run: Step 1: Loading configuration
+2026-04-20 23:00:05,868 [INFO] run: Found 3 active recipient(s)
+2026-04-20 23:00:05,868 [INFO] run: Step 2: Merging recipient settings
+2026-04-20 23:00:05,868 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'semiconductor_ai', 'machinery', 'aerospace_defense', 'education'}, Max news: 10
+2026-04-20 23:00:05,868 [INFO] run: Step 3: Fetching market data
+2026-04-20 23:01:58,662 [INFO] run: Got 4 holdings, 4 indices
+2026-04-20 23:01:58,663 [INFO] run: Step 4: Fetching news
+2026-04-20 23:01:58,664 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-20 23:02:01,826 [INFO] run: Got 9 news items
+2026-04-20 23:02:01,827 [INFO] run: Step 5: Building global metrics
+2026-04-20 23:02:01,827 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-20 23:02:20,854 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 23:02:24,992 [INFO] run: Summary generated: 719 chars
+2026-04-20 23:02:24,992 [INFO] run: Step 7: Building report data
+2026-04-20 23:02:24,992 [INFO] run: Step 8: Sending report
+2026-04-20 23:02:24,995 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-20 23:02:26,415 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-20 23:02:26,415 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-20 23:02:28,366 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 23:06:02,526 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-20 23:06:02,528 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-20 23:06:05,815 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-20 23:08:42,801 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-20 23:08:42,804 [INFO] run: Report sending complete
+2026-04-21 23:00:05,139 [INFO] run: ============================================================
+2026-04-21 23:00:05,139 [INFO] run: Stock US Morning Brief - Starting
+2026-04-21 23:00:05,142 [INFO] run: Step 1: Loading configuration
+2026-04-21 23:00:05,142 [INFO] run: Found 3 active recipient(s)
+2026-04-21 23:00:05,142 [INFO] run: Step 2: Merging recipient settings
+2026-04-21 23:00:05,142 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'machinery', 'semiconductor_ai', 'education', 'aerospace_defense'}, Max news: 10
+2026-04-21 23:00:05,142 [INFO] run: Step 3: Fetching market data
+2026-04-21 23:02:27,566 [INFO] run: Got 4 holdings, 4 indices
+2026-04-21 23:02:27,567 [INFO] run: Step 4: Fetching news
+2026-04-21 23:02:27,567 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-21 23:02:38,022 [INFO] run: Got 10 news items
+2026-04-21 23:02:38,023 [INFO] run: Step 5: Building global metrics
+2026-04-21 23:02:38,023 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-21 23:02:39,026 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:02:41,902 [INFO] run: Summary generated: 719 chars
+2026-04-21 23:02:41,902 [INFO] run: Step 7: Building report data
+2026-04-21 23:02:41,902 [INFO] run: Step 8: Sending report
+2026-04-21 23:02:41,904 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-21 23:02:43,430 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-21 23:02:43,431 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-21 23:02:45,532 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:05:39,486 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-21 23:05:39,489 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-21 23:05:40,129 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-21 23:08:11,754 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-21 23:08:11,757 [INFO] run: Report sending complete
+2026-04-22 23:00:05,228 [INFO] run: ============================================================
+2026-04-22 23:00:05,229 [INFO] run: Stock US Morning Brief - Starting
+2026-04-22 23:00:05,230 [INFO] run: Step 1: Loading configuration
+2026-04-22 23:00:05,230 [INFO] run: Found 3 active recipient(s)
+2026-04-22 23:00:05,230 [INFO] run: Step 2: Merging recipient settings
+2026-04-22 23:00:05,230 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'education', 'machinery', 'aerospace_defense', 'semiconductor_ai'}, Max news: 10
+2026-04-22 23:00:05,230 [INFO] run: Step 3: Fetching market data
+2026-04-22 23:00:28,209 [ERROR] yfinance: $^VIX: possibly delisted; no price data found  (period=5d)
+2026-04-22 23:02:33,526 [INFO] run: Got 4 holdings, 4 indices
+2026-04-22 23:02:33,529 [INFO] run: Step 4: Fetching news
+2026-04-22 23:02:33,529 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-22 23:02:38,163 [INFO] run: Got 10 news items
+2026-04-22 23:02:38,163 [INFO] run: Step 5: Building global metrics
+2026-04-22 23:02:38,163 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-22 23:02:40,668 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-22 23:02:45,637 [INFO] run: Summary generated: 677 chars
+2026-04-22 23:02:45,637 [INFO] run: Step 7: Building report data
+2026-04-22 23:02:45,637 [INFO] run: Step 8: Sending report
+2026-04-22 23:02:45,639 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-22 23:02:47,268 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-22 23:02:47,268 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-22 23:02:49,134 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-22 23:05:31,995 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-22 23:05:31,998 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-22 23:05:32,940 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-22 23:08:38,364 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-22 23:08:38,367 [INFO] run: Report sending complete
+2026-04-23 23:00:05,226 [INFO] run: ============================================================
+2026-04-23 23:00:05,227 [INFO] run: Stock US Morning Brief - Starting
+2026-04-23 23:00:05,228 [INFO] run: Step 1: Loading configuration
+2026-04-23 23:00:05,228 [INFO] run: Found 3 active recipient(s)
+2026-04-23 23:00:05,228 [INFO] run: Step 2: Merging recipient settings
+2026-04-23 23:00:05,228 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'machinery', 'education', 'aerospace_defense', 'semiconductor_ai'}, Max news: 10
+2026-04-23 23:00:05,228 [INFO] run: Step 3: Fetching market data
+2026-04-23 23:01:58,221 [INFO] run: Got 4 holdings, 4 indices
+2026-04-23 23:01:58,224 [INFO] run: Step 4: Fetching news
+2026-04-23 23:01:58,225 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-23 23:02:01,464 [INFO] run: Got 10 news items
+2026-04-23 23:02:01,465 [INFO] run: Step 5: Building global metrics
+2026-04-23 23:02:01,465 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-23 23:02:02,630 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-23 23:02:06,138 [INFO] run: Summary generated: 724 chars
+2026-04-23 23:02:06,140 [INFO] run: Step 7: Building report data
+2026-04-23 23:02:06,140 [INFO] run: Step 8: Sending report
+2026-04-23 23:02:06,145 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-23 23:02:07,819 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-23 23:02:07,820 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-23 23:02:09,360 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-23 23:05:49,547 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-23 23:05:49,552 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-23 23:05:51,523 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-23 23:08:45,482 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-23 23:08:45,487 [INFO] run: Report sending complete
+2026-04-24 23:00:05,606 [INFO] run: ============================================================
+2026-04-24 23:00:05,607 [INFO] run: Stock US Morning Brief - Starting
+2026-04-24 23:00:05,608 [INFO] run: Step 1: Loading configuration
+2026-04-24 23:00:05,609 [INFO] run: Found 3 active recipient(s)
+2026-04-24 23:00:05,609 [INFO] run: Step 2: Merging recipient settings
+2026-04-24 23:00:05,609 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'aerospace_defense', 'semiconductor_ai', 'education', 'machinery'}, Max news: 10
+2026-04-24 23:00:05,609 [INFO] run: Step 3: Fetching market data
+2026-04-24 23:00:09,465 [WARNING] lib.api_clients: yfinance quote error (^GSPC): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:10,337 [WARNING] lib.api_clients: yfinance quote error (^IXIC): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:11,195 [WARNING] lib.api_clients: yfinance quote error (^DJI): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:11,938 [WARNING] lib.api_clients: yfinance quote error (^VIX): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:12,604 [WARNING] lib.api_clients: yfinance quote error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:13,237 [WARNING] lib.api_clients: yfinance info error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:14,095 [WARNING] lib.api_clients: yfinance price_targets error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:14,946 [WARNING] lib.api_clients: yfinance recommendations error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:15,803 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:16,652 [WARNING] lib.api_clients: yfinance earnings_estimate error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:17,365 [WARNING] lib.api_clients: yfinance earnings_history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:18,223 [WARNING] lib.api_clients: yfinance insider_transactions error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:19,345 [WARNING] lib.api_clients: yfinance history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:20,017 [WARNING] lib.api_clients: yfinance quote error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:20,663 [WARNING] lib.api_clients: yfinance info error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:21,327 [WARNING] lib.api_clients: yfinance price_targets error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:21,977 [WARNING] lib.api_clients: yfinance recommendations error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:22,662 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:23,302 [WARNING] lib.api_clients: yfinance earnings_estimate error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:24,137 [WARNING] lib.api_clients: yfinance earnings_history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:25,000 [WARNING] lib.api_clients: yfinance insider_transactions error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:25,640 [WARNING] lib.api_clients: yfinance history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:26,333 [WARNING] lib.api_clients: yfinance quote error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:26,965 [WARNING] lib.api_clients: yfinance info error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:27,812 [WARNING] lib.api_clients: yfinance price_targets error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:28,664 [WARNING] lib.api_clients: yfinance recommendations error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:29,332 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:30,174 [WARNING] lib.api_clients: yfinance earnings_estimate error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:31,026 [WARNING] lib.api_clients: yfinance earnings_history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:31,880 [WARNING] lib.api_clients: yfinance insider_transactions error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:32,535 [WARNING] lib.api_clients: yfinance history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:33,169 [WARNING] lib.api_clients: yfinance quote error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:34,511 [WARNING] lib.api_clients: yfinance info error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:35,346 [WARNING] lib.api_clients: yfinance price_targets error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:36,200 [WARNING] lib.api_clients: yfinance recommendations error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:37,035 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:37,685 [WARNING] lib.api_clients: yfinance earnings_estimate error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:38,324 [WARNING] lib.api_clients: yfinance earnings_history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:39,178 [WARNING] lib.api_clients: yfinance insider_transactions error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:39,831 [WARNING] lib.api_clients: yfinance history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:41,086 [WARNING] lib.api_clients: yfinance recommendations error (LMT): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:41,739 [WARNING] lib.api_clients: yfinance recommendations error (RTX): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:42,377 [WARNING] lib.api_clients: yfinance recommendations error (NOC): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:43,014 [WARNING] lib.api_clients: yfinance recommendations error (BA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:43,681 [WARNING] lib.api_clients: yfinance recommendations error (GD): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:44,326 [WARNING] lib.api_clients: yfinance recommendations error (LHX): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:45,007 [WARNING] lib.api_clients: yfinance recommendations error (TDG): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:45,725 [WARNING] lib.api_clients: yfinance recommendations error (HEI): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:46,630 [WARNING] lib.api_clients: yfinance recommendations error (AXON): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:47,263 [WARNING] lib.api_clients: yfinance recommendations error (AVGO): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:47,898 [WARNING] lib.api_clients: yfinance recommendations error (QCOM): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:48,587 [WARNING] lib.api_clients: yfinance recommendations error (TXN): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:49,647 [WARNING] lib.api_clients: yfinance recommendations error (ARM): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:50,424 [WARNING] lib.api_clients: yfinance recommendations error (AMAT): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:51,690 [WARNING] lib.api_clients: yfinance recommendations error (KLAC): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:52,324 [WARNING] lib.api_clients: yfinance recommendations error (LRCX): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:53,164 [WARNING] lib.api_clients: yfinance recommendations error (MRVL): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:53,800 [WARNING] lib.api_clients: yfinance recommendations error (NXPI): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:54,445 [WARNING] lib.api_clients: yfinance recommendations error (INTC): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:55,104 [WARNING] lib.api_clients: yfinance recommendations error (TSM): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:55,749 [WARNING] lib.api_clients: yfinance recommendations error (ASML): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:56,466 [WARNING] lib.api_clients: yfinance recommendations error (DUOL): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:57,106 [WARNING] lib.api_clients: yfinance recommendations error (LRN): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:58,006 [WARNING] lib.api_clients: yfinance recommendations error (STRA): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:58,652 [WARNING] lib.api_clients: yfinance recommendations error (LOPE): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:59,284 [WARNING] lib.api_clients: yfinance recommendations error (COUR): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:00:59,921 [WARNING] lib.api_clients: yfinance recommendations error (CAT): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:00,563 [WARNING] lib.api_clients: yfinance recommendations error (DE): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:01,210 [WARNING] lib.api_clients: yfinance recommendations error (MMM): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:01,835 [WARNING] lib.api_clients: yfinance recommendations error (ETN): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:02,507 [WARNING] lib.api_clients: yfinance recommendations error (PH): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:03,154 [WARNING] lib.api_clients: yfinance recommendations error (IR): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:03,805 [WARNING] lib.api_clients: yfinance recommendations error (CMI): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:04,434 [WARNING] lib.api_clients: yfinance recommendations error (PCAR): Too Many Requests. Rate limited. Try after a while.
+2026-04-24 23:01:04,434 [INFO] run: Got 4 holdings, 0 indices
+2026-04-24 23:01:04,434 [INFO] run: Step 4: Fetching news
+2026-04-24 23:01:04,435 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-24 23:01:08,936 [INFO] run: Got 9 news items
+2026-04-24 23:01:08,937 [INFO] run: Step 5: Building global metrics
+2026-04-24 23:01:08,938 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-24 23:01:11,953 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-24 23:01:15,714 [INFO] run: Summary generated: 481 chars
+2026-04-24 23:01:15,715 [INFO] run: Step 7: Building report data
+2026-04-24 23:01:15,715 [INFO] run: Step 8: Sending report
+2026-04-24 23:01:15,718 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-24 23:01:18,056 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-24 23:01:18,057 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-24 23:01:19,520 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-24 23:02:20,381 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-24 23:02:20,383 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-24 23:02:38,336 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-24 23:04:12,851 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-24 23:04:12,852 [INFO] run: Report sending complete
+2026-04-25 07:30:01,729 [INFO] run: ============================================================
+2026-04-25 07:30:01,729 [INFO] run: Stock US Morning Brief - Starting
+2026-04-25 07:30:01,731 [INFO] run: Step 1: Loading configuration
+2026-04-25 07:30:01,731 [INFO] run: Found 3 active recipient(s)
+2026-04-25 07:30:01,731 [INFO] run: Step 2: Merging recipient settings
+2026-04-25 07:30:01,731 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'machinery', 'semiconductor_ai', 'aerospace_defense', 'education'}, Max news: 5
+2026-04-25 07:30:01,731 [INFO] run: Step 3: Fetching market data
+2026-04-25 07:32:06,475 [INFO] run: Got 4 holdings, 4 indices
+2026-04-25 07:32:06,476 [INFO] run: Step 4: Fetching news
+2026-04-25 07:32:06,476 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-25 07:32:09,941 [INFO] run: Got 5 news items
+2026-04-25 07:32:09,942 [INFO] run: Step 5: Building global metrics
+2026-04-25 07:32:09,942 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-25 07:32:13,362 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-25 07:32:13,395 [INFO] run: Summarized 5 news items
+2026-04-25 07:32:13,395 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-25 07:32:14,484 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-25 07:32:16,679 [INFO] run: Summary generated: 869 chars
+2026-04-25 07:32:16,679 [INFO] run: Step 7: Building report data
+2026-04-25 07:32:16,679 [INFO] run: Step 8: Sending report
+2026-04-25 07:32:16,682 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-25 07:32:18,304 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-25 07:32:18,305 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-25 07:32:20,934 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-25 07:34:03,488 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-25 07:34:03,491 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-25 07:34:06,033 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-25 07:35:51,264 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-25 07:35:51,265 [INFO] run: Report sending complete
+2026-04-25 22:30:02,717 [INFO] run: ============================================================
+2026-04-25 22:30:02,717 [INFO] run: Stock US Morning Brief - Starting
+2026-04-25 22:30:02,719 [INFO] run: Today is Saturday in US Eastern time, market closed. Skipping.
+2026-04-26 07:30:05,860 [INFO] run: ============================================================
+2026-04-26 07:30:05,861 [INFO] run: Stock US Morning Brief - Starting
+2026-04-26 07:30:05,863 [INFO] run: Today is Saturday in US Eastern time, market closed. Skipping.
+2026-04-26 22:30:05,635 [INFO] run: ============================================================
+2026-04-26 22:30:05,635 [INFO] run: Stock US Morning Brief - Starting
+2026-04-26 22:30:05,637 [INFO] run: Today is Sunday in US Eastern time, market closed. Skipping.
+2026-04-27 07:30:02,727 [INFO] run: ============================================================
+2026-04-27 07:30:02,728 [INFO] run: Stock US Morning Brief - Starting
+2026-04-27 07:30:02,730 [INFO] run: Today is Sunday in US Eastern time, market closed. Skipping.
+2026-04-27 22:30:05,584 [INFO] run: ============================================================
+2026-04-27 22:30:05,585 [INFO] run: Stock US Morning Brief - Starting
+2026-04-27 22:30:05,586 [INFO] run: Step 1: Loading configuration
+2026-04-27 22:30:05,586 [INFO] run: Found 3 active recipient(s)
+2026-04-27 22:30:05,586 [INFO] run: Step 2: Merging recipient settings
+2026-04-27 22:30:05,586 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'education', 'semiconductor_ai', 'aerospace_defense', 'machinery'}, Max news: 5
+2026-04-27 22:30:05,586 [INFO] run: Step 3: Fetching market data
+2026-04-27 22:31:32,912 [INFO] run: Got 4 holdings, 4 indices
+2026-04-27 22:31:32,913 [INFO] run: Step 4: Fetching news
+2026-04-27 22:31:32,914 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-27 22:31:38,117 [INFO] run: Got 5 news items
+2026-04-27 22:31:38,118 [INFO] run: Step 5: Building global metrics
+2026-04-27 22:31:38,118 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-27 22:31:43,446 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-27 22:31:43,542 [INFO] run: Summarized 5 news items
+2026-04-27 22:31:43,543 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-27 22:31:46,286 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-27 22:31:51,755 [INFO] run: Summary generated: 779 chars
+2026-04-27 22:31:51,755 [INFO] run: Step 7: Building report data
+2026-04-27 22:31:51,755 [INFO] run: Step 8: Sending report
+2026-04-27 22:31:51,770 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-27 22:31:54,805 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-27 22:31:54,806 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-27 22:31:59,899 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-27 22:34:53,641 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-27 22:34:53,644 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-27 22:35:00,761 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-27 22:36:38,905 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-27 22:36:38,907 [INFO] run: Report sending complete
+2026-04-28 07:30:03,234 [INFO] run: ============================================================
+2026-04-28 07:30:03,235 [INFO] run: Stock US Morning Brief - Starting
+2026-04-28 07:30:03,237 [INFO] run: Step 1: Loading configuration
+2026-04-28 07:30:03,237 [INFO] run: Found 3 active recipient(s)
+2026-04-28 07:30:03,237 [INFO] run: Step 2: Merging recipient settings
+2026-04-28 07:30:03,237 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'aerospace_defense', 'semiconductor_ai', 'machinery', 'education'}, Max news: 5
+2026-04-28 07:30:03,237 [INFO] run: Step 3: Fetching market data
+2026-04-28 07:31:12,325 [INFO] run: Got 4 holdings, 4 indices
+2026-04-28 07:31:12,327 [INFO] run: Step 4: Fetching news
+2026-04-28 07:31:12,328 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-28 07:31:14,109 [INFO] run: Got 5 news items
+2026-04-28 07:31:14,109 [INFO] run: Step 5: Building global metrics
+2026-04-28 07:31:14,109 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-28 07:31:18,608 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 07:31:18,685 [INFO] run: Summarized 5 news items
+2026-04-28 07:31:18,685 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-28 07:31:20,143 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 07:31:23,348 [INFO] run: Summary generated: 876 chars
+2026-04-28 07:31:23,348 [INFO] run: Step 7: Building report data
+2026-04-28 07:31:23,348 [INFO] run: Step 8: Sending report
+2026-04-28 07:31:23,351 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-28 07:31:25,005 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-28 07:31:25,006 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-28 07:31:28,846 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 07:35:19,434 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-28 07:35:19,437 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-28 07:35:22,628 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 07:38:01,563 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-28 07:38:01,565 [INFO] run: Report sending complete
+2026-04-28 22:30:01,232 [INFO] run: ============================================================
+2026-04-28 22:30:01,233 [INFO] run: Stock US Morning Brief - Starting
+2026-04-28 22:30:01,234 [INFO] run: Step 1: Loading configuration
+2026-04-28 22:30:01,234 [INFO] run: Found 3 active recipient(s)
+2026-04-28 22:30:01,234 [INFO] run: Step 2: Merging recipient settings
+2026-04-28 22:30:01,234 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'machinery', 'aerospace_defense', 'education', 'semiconductor_ai'}, Max news: 5
+2026-04-28 22:30:01,234 [INFO] run: Step 3: Fetching market data
+2026-04-28 22:33:45,543 [INFO] run: Got 4 holdings, 4 indices
+2026-04-28 22:33:45,544 [INFO] run: Step 4: Fetching news
+2026-04-28 22:33:45,545 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-28 22:33:49,597 [INFO] run: Got 5 news items
+2026-04-28 22:33:49,597 [INFO] run: Step 5: Building global metrics
+2026-04-28 22:33:49,598 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-28 22:33:53,484 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 22:33:53,519 [INFO] run: Summarized 5 news items
+2026-04-28 22:33:53,520 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-28 22:33:54,472 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 22:33:57,926 [INFO] run: Summary generated: 806 chars
+2026-04-28 22:33:57,926 [INFO] run: Step 7: Building report data
+2026-04-28 22:33:57,926 [INFO] run: Step 8: Sending report
+2026-04-28 22:33:57,928 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-28 22:34:00,347 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-28 22:34:00,347 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-28 22:34:03,006 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 22:37:08,694 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-28 22:37:08,696 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-28 22:37:10,196 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-28 22:39:05,752 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-28 22:39:05,754 [INFO] run: Report sending complete
+2026-04-29 07:30:05,988 [INFO] run: ============================================================
+2026-04-29 07:30:05,989 [INFO] run: Stock US Morning Brief - Starting
+2026-04-29 07:30:05,990 [INFO] run: Step 1: Loading configuration
+2026-04-29 07:30:05,990 [INFO] run: Found 3 active recipient(s)
+2026-04-29 07:30:05,990 [INFO] run: Step 2: Merging recipient settings
+2026-04-29 07:30:05,990 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'education', 'semiconductor_ai', 'aerospace_defense', 'machinery'}, Max news: 5
+2026-04-29 07:30:05,990 [INFO] run: Step 3: Fetching market data
+2026-04-29 07:30:55,592 [INFO] run: Got 4 holdings, 4 indices
+2026-04-29 07:30:55,592 [INFO] run: Step 4: Fetching news
+2026-04-29 07:30:55,592 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-29 07:30:58,414 [INFO] run: Got 5 news items
+2026-04-29 07:30:58,414 [INFO] run: Step 5: Building global metrics
+2026-04-29 07:30:58,414 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-29 07:31:02,346 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 07:31:02,429 [INFO] run: Summarized 5 news items
+2026-04-29 07:31:02,429 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-29 07:31:03,685 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 07:31:08,086 [INFO] run: Summary generated: 724 chars
+2026-04-29 07:31:08,087 [INFO] run: Step 7: Building report data
+2026-04-29 07:31:08,087 [INFO] run: Step 8: Sending report
+2026-04-29 07:31:08,088 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-29 07:31:10,169 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-29 07:31:10,169 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-29 07:31:12,501 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 07:33:17,534 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-29 07:33:17,536 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-29 07:33:20,195 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 07:35:48,242 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-29 07:35:48,243 [INFO] run: Report sending complete
+2026-04-29 22:30:05,860 [INFO] run: ============================================================
+2026-04-29 22:30:05,861 [INFO] run: Stock US Morning Brief - Starting
+2026-04-29 22:30:05,862 [INFO] run: Step 1: Loading configuration
+2026-04-29 22:30:05,863 [INFO] run: Found 3 active recipient(s)
+2026-04-29 22:30:05,863 [INFO] run: Step 2: Merging recipient settings
+2026-04-29 22:30:05,863 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'semiconductor_ai', 'aerospace_defense', 'education', 'machinery'}, Max news: 5
+2026-04-29 22:30:05,863 [INFO] run: Step 3: Fetching market data
+2026-04-29 22:32:42,378 [INFO] run: Got 4 holdings, 4 indices
+2026-04-29 22:32:42,381 [INFO] run: Step 4: Fetching news
+2026-04-29 22:32:42,381 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-29 22:32:45,548 [INFO] run: Got 5 news items
+2026-04-29 22:32:45,548 [INFO] run: Step 5: Building global metrics
+2026-04-29 22:32:45,548 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-29 22:32:53,346 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 22:32:53,378 [INFO] run: Summarized 5 news items
+2026-04-29 22:32:53,378 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-29 22:32:56,086 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 22:33:00,056 [INFO] run: Summary generated: 942 chars
+2026-04-29 22:33:00,056 [INFO] run: Step 7: Building report data
+2026-04-29 22:33:00,056 [INFO] run: Step 8: Sending report
+2026-04-29 22:33:00,059 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-29 22:33:02,460 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-29 22:33:02,461 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-29 22:33:06,034 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 22:35:47,842 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-29 22:35:47,844 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-29 22:35:53,835 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-29 22:38:22,122 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-29 22:38:22,123 [INFO] run: Report sending complete
+2026-04-30 07:30:03,715 [INFO] run: ============================================================
+2026-04-30 07:30:03,715 [INFO] run: Stock US Morning Brief - Starting
+2026-04-30 07:30:03,717 [INFO] run: Step 1: Loading configuration
+2026-04-30 07:30:03,717 [INFO] run: Found 3 active recipient(s)
+2026-04-30 07:30:03,717 [INFO] run: Step 2: Merging recipient settings
+2026-04-30 07:30:03,717 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'education', 'semiconductor_ai', 'aerospace_defense', 'machinery'}, Max news: 5
+2026-04-30 07:30:03,717 [INFO] run: Step 3: Fetching market data
+2026-04-30 07:31:19,168 [INFO] run: Got 4 holdings, 4 indices
+2026-04-30 07:31:19,170 [INFO] run: Step 4: Fetching news
+2026-04-30 07:31:19,170 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-30 07:31:21,497 [INFO] run: Got 5 news items
+2026-04-30 07:31:21,497 [INFO] run: Step 5: Building global metrics
+2026-04-30 07:31:21,498 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-30 07:31:25,256 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 07:31:25,332 [INFO] run: Summarized 5 news items
+2026-04-30 07:31:25,332 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-30 07:31:26,171 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 07:31:28,854 [INFO] run: Summary generated: 694 chars
+2026-04-30 07:31:28,854 [INFO] run: Step 7: Building report data
+2026-04-30 07:31:28,854 [INFO] run: Step 8: Sending report
+2026-04-30 07:31:28,857 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-30 07:31:31,525 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-30 07:31:31,526 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-30 07:31:34,494 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 07:33:27,630 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-30 07:33:27,631 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-30 07:33:30,621 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 07:36:01,315 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-30 07:36:01,316 [INFO] run: Report sending complete
+2026-04-30 22:30:05,369 [INFO] run: ============================================================
+2026-04-30 22:30:05,370 [INFO] run: Stock US Morning Brief - Starting
+2026-04-30 22:30:05,371 [INFO] run: Step 1: Loading configuration
+2026-04-30 22:30:05,372 [INFO] run: Found 3 active recipient(s)
+2026-04-30 22:30:05,372 [INFO] run: Step 2: Merging recipient settings
+2026-04-30 22:30:05,372 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'aerospace_defense', 'education', 'semiconductor_ai', 'machinery'}, Max news: 5
+2026-04-30 22:30:05,372 [INFO] run: Step 3: Fetching market data
+2026-04-30 22:32:03,821 [INFO] run: Got 4 holdings, 4 indices
+2026-04-30 22:32:03,823 [INFO] run: Step 4: Fetching news
+2026-04-30 22:32:03,823 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-04-30 22:32:06,954 [INFO] run: Got 5 news items
+2026-04-30 22:32:06,954 [INFO] run: Step 5: Building global metrics
+2026-04-30 22:32:06,954 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-04-30 22:32:11,370 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 22:32:11,404 [INFO] run: Summarized 5 news items
+2026-04-30 22:32:11,404 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-04-30 22:32:13,606 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 22:32:16,978 [INFO] run: Summary generated: 912 chars
+2026-04-30 22:32:16,978 [INFO] run: Step 7: Building report data
+2026-04-30 22:32:16,978 [INFO] run: Step 8: Sending report
+2026-04-30 22:32:16,981 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-04-30 22:32:20,565 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-04-30 22:32:20,566 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-04-30 22:32:26,955 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 22:35:17,061 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-04-30 22:35:17,065 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-04-30 22:35:27,419 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-04-30 22:37:59,740 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-04-30 22:37:59,740 [INFO] run: Report sending complete
+2026-05-01 07:30:04,742 [INFO] run: ============================================================
+2026-05-01 07:30:04,743 [INFO] run: Stock US Morning Brief - Starting
+2026-05-01 07:30:04,744 [INFO] run: Step 1: Loading configuration
+2026-05-01 07:30:04,745 [INFO] run: Found 3 active recipient(s)
+2026-05-01 07:30:04,745 [INFO] run: Step 2: Merging recipient settings
+2026-05-01 07:30:04,745 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'semiconductor_ai', 'education', 'machinery', 'aerospace_defense'}, Max news: 5
+2026-05-01 07:30:04,745 [INFO] run: Step 3: Fetching market data
+2026-05-01 07:30:08,657 [WARNING] lib.api_clients: yfinance quote error (^GSPC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:09,239 [WARNING] lib.api_clients: yfinance quote error (^IXIC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:09,962 [WARNING] lib.api_clients: yfinance quote error (^DJI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:10,550 [WARNING] lib.api_clients: yfinance quote error (^VIX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:11,104 [WARNING] lib.api_clients: yfinance quote error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:11,680 [WARNING] lib.api_clients: yfinance info error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:12,408 [WARNING] lib.api_clients: yfinance price_targets error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:13,166 [WARNING] lib.api_clients: yfinance recommendations error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:13,889 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:14,638 [WARNING] lib.api_clients: yfinance earnings_estimate error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:15,182 [WARNING] lib.api_clients: yfinance earnings_history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:15,935 [WARNING] lib.api_clients: yfinance insider_transactions error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:16,654 [WARNING] lib.api_clients: yfinance history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:17,228 [WARNING] lib.api_clients: yfinance quote error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:17,767 [WARNING] lib.api_clients: yfinance info error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:18,342 [WARNING] lib.api_clients: yfinance price_targets error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:19,054 [WARNING] lib.api_clients: yfinance recommendations error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:19,629 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:20,341 [WARNING] lib.api_clients: yfinance earnings_estimate error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:21,177 [WARNING] lib.api_clients: yfinance earnings_history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:21,913 [WARNING] lib.api_clients: yfinance insider_transactions error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:22,722 [WARNING] lib.api_clients: yfinance history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:23,269 [WARNING] lib.api_clients: yfinance quote error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:23,844 [WARNING] lib.api_clients: yfinance info error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:24,385 [WARNING] lib.api_clients: yfinance price_targets error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:24,964 [WARNING] lib.api_clients: yfinance recommendations error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:25,681 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:26,274 [WARNING] lib.api_clients: yfinance earnings_estimate error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:26,988 [WARNING] lib.api_clients: yfinance earnings_history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:27,738 [WARNING] lib.api_clients: yfinance insider_transactions error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:28,458 [WARNING] lib.api_clients: yfinance history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:29,047 [WARNING] lib.api_clients: yfinance quote error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:29,602 [WARNING] lib.api_clients: yfinance info error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:30,354 [WARNING] lib.api_clients: yfinance price_targets error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:31,070 [WARNING] lib.api_clients: yfinance recommendations error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:31,818 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:32,533 [WARNING] lib.api_clients: yfinance earnings_estimate error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:33,285 [WARNING] lib.api_clients: yfinance earnings_history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:34,003 [WARNING] lib.api_clients: yfinance insider_transactions error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:34,752 [WARNING] lib.api_clients: yfinance history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:35,296 [WARNING] lib.api_clients: yfinance recommendations error (AVGO): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:35,874 [WARNING] lib.api_clients: yfinance recommendations error (QCOM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:36,413 [WARNING] lib.api_clients: yfinance recommendations error (TXN): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:37,213 [WARNING] lib.api_clients: yfinance recommendations error (ARM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:37,751 [WARNING] lib.api_clients: yfinance recommendations error (AMAT): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:38,495 [WARNING] lib.api_clients: yfinance recommendations error (KLAC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:39,205 [WARNING] lib.api_clients: yfinance recommendations error (LRCX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:39,951 [WARNING] lib.api_clients: yfinance recommendations error (MRVL): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:40,666 [WARNING] lib.api_clients: yfinance recommendations error (NXPI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:41,420 [WARNING] lib.api_clients: yfinance recommendations error (INTC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:41,973 [WARNING] lib.api_clients: yfinance recommendations error (TSM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:42,798 [WARNING] lib.api_clients: yfinance recommendations error (ASML): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:43,514 [WARNING] lib.api_clients: yfinance recommendations error (DUOL): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:44,261 [WARNING] lib.api_clients: yfinance recommendations error (LRN): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:44,974 [WARNING] lib.api_clients: yfinance recommendations error (STRA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:45,721 [WARNING] lib.api_clients: yfinance recommendations error (LOPE): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:46,435 [WARNING] lib.api_clients: yfinance recommendations error (COUR): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:47,033 [WARNING] lib.api_clients: yfinance recommendations error (CAT): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:47,751 [WARNING] lib.api_clients: yfinance recommendations error (DE): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:48,326 [WARNING] lib.api_clients: yfinance recommendations error (MMM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:49,043 [WARNING] lib.api_clients: yfinance recommendations error (ETN): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:49,860 [WARNING] lib.api_clients: yfinance recommendations error (PH): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:50,401 [WARNING] lib.api_clients: yfinance recommendations error (IR): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:51,156 [WARNING] lib.api_clients: yfinance recommendations error (CMI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:51,870 [WARNING] lib.api_clients: yfinance recommendations error (PCAR): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:52,619 [WARNING] lib.api_clients: yfinance recommendations error (LMT): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:53,345 [WARNING] lib.api_clients: yfinance recommendations error (RTX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:54,097 [WARNING] lib.api_clients: yfinance recommendations error (NOC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:54,810 [WARNING] lib.api_clients: yfinance recommendations error (BA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:55,561 [WARNING] lib.api_clients: yfinance recommendations error (GD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:56,311 [WARNING] lib.api_clients: yfinance recommendations error (LHX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:57,207 [WARNING] lib.api_clients: yfinance recommendations error (TDG): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:57,745 [WARNING] lib.api_clients: yfinance recommendations error (HEI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:58,491 [WARNING] lib.api_clients: yfinance recommendations error (AXON): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 07:30:58,491 [INFO] run: Got 4 holdings, 0 indices
+2026-05-01 07:30:58,492 [INFO] run: Step 4: Fetching news
+2026-05-01 07:30:58,492 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-05-01 07:31:05,331 [INFO] run: Got 3 news items
+2026-05-01 07:31:05,333 [INFO] run: Step 5: Building global metrics
+2026-05-01 07:31:05,333 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-05-01 07:31:09,142 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 07:31:09,174 [INFO] run: Summarized 3 news items
+2026-05-01 07:31:09,174 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-05-01 07:31:10,272 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 07:31:12,676 [INFO] run: Summary generated: 566 chars
+2026-05-01 07:31:12,676 [INFO] run: Step 7: Building report data
+2026-05-01 07:31:12,676 [INFO] run: Step 8: Sending report
+2026-05-01 07:31:12,679 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-05-01 07:31:14,617 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-05-01 07:31:14,617 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-05-01 07:31:16,131 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 07:31:46,545 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-05-01 07:31:46,547 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-05-01 07:31:48,265 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 07:32:17,890 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-05-01 07:32:17,891 [INFO] run: Report sending complete
+2026-05-01 22:30:05,806 [INFO] run: ============================================================
+2026-05-01 22:30:05,807 [INFO] run: Stock US Morning Brief - Starting
+2026-05-01 22:30:05,808 [INFO] run: Step 1: Loading configuration
+2026-05-01 22:30:05,809 [INFO] run: Found 3 active recipient(s)
+2026-05-01 22:30:05,809 [INFO] run: Step 2: Merging recipient settings
+2026-05-01 22:30:05,809 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'machinery', 'semiconductor_ai', 'education', 'aerospace_defense'}, Max news: 5
+2026-05-01 22:30:05,809 [INFO] run: Step 3: Fetching market data
+2026-05-01 22:30:09,840 [WARNING] lib.api_clients: yfinance quote error (^GSPC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:10,486 [WARNING] lib.api_clients: yfinance quote error (^IXIC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:11,354 [WARNING] lib.api_clients: yfinance quote error (^DJI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:12,036 [WARNING] lib.api_clients: yfinance quote error (^VIX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:12,825 [WARNING] lib.api_clients: yfinance quote error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:13,532 [WARNING] lib.api_clients: yfinance info error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:14,437 [WARNING] lib.api_clients: yfinance price_targets error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:15,126 [WARNING] lib.api_clients: yfinance recommendations error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:15,796 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:16,687 [WARNING] lib.api_clients: yfinance earnings_estimate error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:17,506 [WARNING] lib.api_clients: yfinance earnings_history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:18,324 [WARNING] lib.api_clients: yfinance insider_transactions error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:18,964 [WARNING] lib.api_clients: yfinance history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:19,617 [WARNING] lib.api_clients: yfinance quote error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:20,246 [WARNING] lib.api_clients: yfinance info error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:21,044 [WARNING] lib.api_clients: yfinance price_targets error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:21,895 [WARNING] lib.api_clients: yfinance recommendations error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:22,710 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:23,312 [WARNING] lib.api_clients: yfinance earnings_estimate error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:23,941 [WARNING] lib.api_clients: yfinance earnings_history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:24,770 [WARNING] lib.api_clients: yfinance insider_transactions error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:25,373 [WARNING] lib.api_clients: yfinance history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:26,007 [WARNING] lib.api_clients: yfinance quote error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:26,624 [WARNING] lib.api_clients: yfinance info error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:27,463 [WARNING] lib.api_clients: yfinance price_targets error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:28,174 [WARNING] lib.api_clients: yfinance recommendations error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:28,843 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:29,697 [WARNING] lib.api_clients: yfinance earnings_estimate error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:30,380 [WARNING] lib.api_clients: yfinance earnings_history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:31,022 [WARNING] lib.api_clients: yfinance insider_transactions error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:31,671 [WARNING] lib.api_clients: yfinance history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:32,298 [WARNING] lib.api_clients: yfinance quote error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:32,911 [WARNING] lib.api_clients: yfinance info error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:33,590 [WARNING] lib.api_clients: yfinance price_targets error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:34,702 [WARNING] lib.api_clients: yfinance recommendations error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:35,337 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:36,179 [WARNING] lib.api_clients: yfinance earnings_estimate error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:36,852 [WARNING] lib.api_clients: yfinance earnings_history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:37,681 [WARNING] lib.api_clients: yfinance insider_transactions error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:38,345 [WARNING] lib.api_clients: yfinance history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:39,009 [WARNING] lib.api_clients: yfinance recommendations error (CAT): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:39,874 [WARNING] lib.api_clients: yfinance recommendations error (DE): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:40,498 [WARNING] lib.api_clients: yfinance recommendations error (MMM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:41,123 [WARNING] lib.api_clients: yfinance recommendations error (ETN): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:41,831 [WARNING] lib.api_clients: yfinance recommendations error (PH): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:42,440 [WARNING] lib.api_clients: yfinance recommendations error (IR): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:43,095 [WARNING] lib.api_clients: yfinance recommendations error (CMI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:43,933 [WARNING] lib.api_clients: yfinance recommendations error (PCAR): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:44,766 [WARNING] lib.api_clients: yfinance recommendations error (AVGO): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:45,380 [WARNING] lib.api_clients: yfinance recommendations error (QCOM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:45,999 [WARNING] lib.api_clients: yfinance recommendations error (TXN): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:46,642 [WARNING] lib.api_clients: yfinance recommendations error (ARM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:47,335 [WARNING] lib.api_clients: yfinance recommendations error (AMAT): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:47,977 [WARNING] lib.api_clients: yfinance recommendations error (KLAC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:48,853 [WARNING] lib.api_clients: yfinance recommendations error (LRCX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:49,496 [WARNING] lib.api_clients: yfinance recommendations error (MRVL): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:50,322 [WARNING] lib.api_clients: yfinance recommendations error (NXPI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:51,153 [WARNING] lib.api_clients: yfinance recommendations error (INTC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:51,787 [WARNING] lib.api_clients: yfinance recommendations error (TSM): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:52,602 [WARNING] lib.api_clients: yfinance recommendations error (ASML): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:53,401 [WARNING] lib.api_clients: yfinance recommendations error (DUOL): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:54,216 [WARNING] lib.api_clients: yfinance recommendations error (LRN): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:55,007 [WARNING] lib.api_clients: yfinance recommendations error (STRA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:56,006 [WARNING] lib.api_clients: yfinance recommendations error (LOPE): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:56,651 [WARNING] lib.api_clients: yfinance recommendations error (COUR): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:57,469 [WARNING] lib.api_clients: yfinance recommendations error (LMT): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:58,276 [WARNING] lib.api_clients: yfinance recommendations error (RTX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:59,132 [WARNING] lib.api_clients: yfinance recommendations error (NOC): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:30:59,758 [WARNING] lib.api_clients: yfinance recommendations error (BA): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:31:00,365 [WARNING] lib.api_clients: yfinance recommendations error (GD): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:31:01,262 [WARNING] lib.api_clients: yfinance recommendations error (LHX): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:31:01,929 [WARNING] lib.api_clients: yfinance recommendations error (TDG): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:31:02,587 [WARNING] lib.api_clients: yfinance recommendations error (HEI): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:31:03,424 [WARNING] lib.api_clients: yfinance recommendations error (AXON): Too Many Requests. Rate limited. Try after a while.
+2026-05-01 22:31:03,424 [INFO] run: Got 4 holdings, 0 indices
+2026-05-01 22:31:03,424 [INFO] run: Step 4: Fetching news
+2026-05-01 22:31:03,424 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-05-01 22:31:12,531 [INFO] run: Got 5 news items
+2026-05-01 22:31:12,531 [INFO] run: Step 5: Building global metrics
+2026-05-01 22:31:12,531 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-05-01 22:31:17,439 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 22:31:17,481 [INFO] run: Summarized 5 news items
+2026-05-01 22:31:17,481 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-05-01 22:31:19,014 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 22:31:22,224 [INFO] run: Summary generated: 520 chars
+2026-05-01 22:31:22,225 [INFO] run: Step 7: Building report data
+2026-05-01 22:31:22,225 [INFO] run: Step 8: Sending report
+2026-05-01 22:31:22,227 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-05-01 22:31:24,525 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-05-01 22:31:24,526 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-05-01 22:31:27,695 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 22:32:15,560 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-05-01 22:32:15,561 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-05-01 22:32:17,930 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-01 22:32:53,893 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-05-01 22:32:53,896 [INFO] run: Report sending complete
+2026-05-02 07:30:01,203 [INFO] run: ============================================================
+2026-05-02 07:30:01,203 [INFO] run: Stock US Morning Brief - Starting
+2026-05-02 07:30:01,205 [INFO] run: Step 1: Loading configuration
+2026-05-02 07:30:01,205 [INFO] run: Found 3 active recipient(s)
+2026-05-02 07:30:01,205 [INFO] run: Step 2: Merging recipient settings
+2026-05-02 07:30:01,205 [INFO] run: Holdings: ['AMD', 'NVDA', 'MU', 'TSLA'], Industries: {'semiconductor_ai', 'machinery', 'education', 'aerospace_defense'}, Max news: 5
+2026-05-02 07:30:01,205 [INFO] run: Step 3: Fetching market data
+2026-05-02 07:30:04,177 [WARNING] lib.api_clients: yfinance quote error (^GSPC): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:04,814 [WARNING] lib.api_clients: yfinance quote error (^IXIC): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:05,474 [WARNING] lib.api_clients: yfinance quote error (^DJI): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:06,121 [WARNING] lib.api_clients: yfinance quote error (^VIX): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:06,787 [WARNING] lib.api_clients: yfinance quote error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:07,419 [WARNING] lib.api_clients: yfinance info error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:08,079 [WARNING] lib.api_clients: yfinance price_targets error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:08,712 [WARNING] lib.api_clients: yfinance recommendations error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:09,375 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:10,009 [WARNING] lib.api_clients: yfinance earnings_estimate error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:10,668 [WARNING] lib.api_clients: yfinance earnings_history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:11,299 [WARNING] lib.api_clients: yfinance insider_transactions error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:12,067 [WARNING] lib.api_clients: yfinance history error (AMD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:12,745 [WARNING] lib.api_clients: yfinance quote error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:13,425 [WARNING] lib.api_clients: yfinance info error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:14,052 [WARNING] lib.api_clients: yfinance price_targets error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:14,711 [WARNING] lib.api_clients: yfinance recommendations error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:15,341 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:15,997 [WARNING] lib.api_clients: yfinance earnings_estimate error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:16,643 [WARNING] lib.api_clients: yfinance earnings_history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:17,300 [WARNING] lib.api_clients: yfinance insider_transactions error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:18,006 [WARNING] lib.api_clients: yfinance history error (NVDA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:18,664 [WARNING] lib.api_clients: yfinance quote error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:19,290 [WARNING] lib.api_clients: yfinance info error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:19,947 [WARNING] lib.api_clients: yfinance price_targets error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:20,577 [WARNING] lib.api_clients: yfinance recommendations error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:21,232 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:21,861 [WARNING] lib.api_clients: yfinance earnings_estimate error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:22,518 [WARNING] lib.api_clients: yfinance earnings_history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:23,149 [WARNING] lib.api_clients: yfinance insider_transactions error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:23,823 [WARNING] lib.api_clients: yfinance history error (MU): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:24,459 [WARNING] lib.api_clients: yfinance quote error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:25,122 [WARNING] lib.api_clients: yfinance info error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:25,755 [WARNING] lib.api_clients: yfinance price_targets error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:26,411 [WARNING] lib.api_clients: yfinance recommendations error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:27,051 [WARNING] lib.api_clients: yfinance upgrades_downgrades error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:27,715 [WARNING] lib.api_clients: yfinance earnings_estimate error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:28,348 [WARNING] lib.api_clients: yfinance earnings_history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:29,006 [WARNING] lib.api_clients: yfinance insider_transactions error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:29,633 [WARNING] lib.api_clients: yfinance history error (TSLA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:30,290 [WARNING] lib.api_clients: yfinance recommendations error (AVGO): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:30,919 [WARNING] lib.api_clients: yfinance recommendations error (QCOM): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:31,575 [WARNING] lib.api_clients: yfinance recommendations error (TXN): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:32,205 [WARNING] lib.api_clients: yfinance recommendations error (ARM): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:32,861 [WARNING] lib.api_clients: yfinance recommendations error (AMAT): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:33,490 [WARNING] lib.api_clients: yfinance recommendations error (KLAC): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:34,150 [WARNING] lib.api_clients: yfinance recommendations error (LRCX): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:34,779 [WARNING] lib.api_clients: yfinance recommendations error (MRVL): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:35,441 [WARNING] lib.api_clients: yfinance recommendations error (NXPI): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:36,070 [WARNING] lib.api_clients: yfinance recommendations error (INTC): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:36,727 [WARNING] lib.api_clients: yfinance recommendations error (TSM): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:37,383 [WARNING] lib.api_clients: yfinance recommendations error (ASML): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:38,039 [WARNING] lib.api_clients: yfinance recommendations error (CAT): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:38,672 [WARNING] lib.api_clients: yfinance recommendations error (DE): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:39,649 [WARNING] lib.api_clients: yfinance recommendations error (MMM): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:40,630 [WARNING] lib.api_clients: yfinance recommendations error (ETN): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:41,383 [WARNING] lib.api_clients: yfinance recommendations error (PH): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:42,011 [WARNING] lib.api_clients: yfinance recommendations error (IR): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:42,667 [WARNING] lib.api_clients: yfinance recommendations error (CMI): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:43,295 [WARNING] lib.api_clients: yfinance recommendations error (PCAR): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:43,953 [WARNING] lib.api_clients: yfinance recommendations error (DUOL): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:44,584 [WARNING] lib.api_clients: yfinance recommendations error (LRN): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:45,243 [WARNING] lib.api_clients: yfinance recommendations error (STRA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:45,870 [WARNING] lib.api_clients: yfinance recommendations error (LOPE): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:46,528 [WARNING] lib.api_clients: yfinance recommendations error (COUR): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:47,161 [WARNING] lib.api_clients: yfinance recommendations error (LMT): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:47,818 [WARNING] lib.api_clients: yfinance recommendations error (RTX): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:48,446 [WARNING] lib.api_clients: yfinance recommendations error (NOC): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:49,102 [WARNING] lib.api_clients: yfinance recommendations error (BA): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:49,731 [WARNING] lib.api_clients: yfinance recommendations error (GD): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:50,394 [WARNING] lib.api_clients: yfinance recommendations error (LHX): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:51,026 [WARNING] lib.api_clients: yfinance recommendations error (TDG): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:51,686 [WARNING] lib.api_clients: yfinance recommendations error (HEI): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:52,318 [WARNING] lib.api_clients: yfinance recommendations error (AXON): Too Many Requests. Rate limited. Try after a while.
+2026-05-02 07:30:52,319 [INFO] run: Got 4 holdings, 0 indices
+2026-05-02 07:30:52,319 [INFO] run: Step 4: Fetching news
+2026-05-02 07:30:52,319 [INFO] lib.data_provider: DataProvider initialized. Available APIs: {'finnhub': False, 'alphavantage': False, 'tavily': False, 'yfinance': True}
+2026-05-02 07:30:54,813 [INFO] run: Got 5 news items
+2026-05-02 07:30:54,814 [INFO] run: Step 5: Building global metrics
+2026-05-02 07:30:54,814 [INFO] run: Step 5.5: Summarizing news via Claude API
+2026-05-02 07:30:58,671 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-02 07:30:58,704 [INFO] run: Summarized 5 news items
+2026-05-02 07:30:58,704 [INFO] run: Step 6: Generating daily summary via Claude API
+2026-05-02 07:30:59,504 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-02 07:31:03,296 [INFO] run: Summary generated: 637 chars
+2026-05-02 07:31:03,296 [INFO] run: Step 7: Building report data
+2026-05-02 07:31:03,296 [INFO] run: Step 8: Sending report
+2026-05-02 07:31:03,298 [INFO] run: Processing: 龙总 (zachary.lzy@outlook.com) - Language: zh-CN
+2026-05-02 07:31:04,717 [INFO] run: Sent successfully to zachary.lzy@outlook.com
+2026-05-02 07:31:04,717 [INFO] run: Processing: Jia (gisel2002@naver.com) - Language: ko-KR
+2026-05-02 07:31:05,757 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-02 07:31:45,216 [INFO] run: Sent successfully to gisel2002@naver.com
+2026-05-02 07:31:45,217 [INFO] run: Processing: Jia (1533972503@qq.com) - Language: ko-KR
+2026-05-02 07:31:46,209 [INFO] httpx: HTTP Request: POST https://open.bigmodel.cn/api/anthropic/v1/messages "HTTP/1.1 200 OK"
+2026-05-02 07:32:24,391 [INFO] run: Sent successfully to 1533972503@qq.com
+2026-05-02 07:32:24,393 [INFO] run: Report sending complete
+2026-05-02 22:30:05,240 [INFO] run: ============================================================
+2026-05-02 22:30:05,241 [INFO] run: Stock US Morning Brief - Starting
+2026-05-02 22:30:05,242 [INFO] run: Today is Saturday in US Eastern time, market closed. Skipping.
+2026-05-03 07:30:05,727 [INFO] run: ============================================================
+2026-05-03 07:30:05,728 [INFO] run: Stock US Morning Brief - Starting
+2026-05-03 07:30:05,730 [INFO] run: Today is Saturday in US Eastern time, market closed. Skipping.
+2026-05-03 22:30:05,232 [INFO] run: ============================================================
+2026-05-03 22:30:05,232 [INFO] run: Stock US Morning Brief - Starting
+2026-05-03 22:30:05,234 [INFO] run: Today is Sunday in US Eastern time, market closed. Skipping.
+2026-05-04 07:30:05,232 [INFO] run: ============================================================
+2026-05-04 07:30:05,233 [INFO] run: Stock US Morning Brief - Starting
+2026-05-04 07:30:05,234 [INFO] run: Today is Sunday in US Eastern time, market closed. Skipping.

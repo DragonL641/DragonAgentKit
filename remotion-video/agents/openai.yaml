@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remotion 视频制作"
+  short_description: "Create videos programmatically with React and Remotion"
+  default_prompt: "使用 $remotion-video 帮我制作一个视频"
