@@ -1,12 +1,12 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "dragon-skills",
-  "description": "A curated collection of 44 Claude Code skills covering content creation, image generation, development tools, data analysis, knowledge management, markdown processing, and multimedia research.",
+  "name": "dragon-agent-kit",
+  "description": "A curated collection of Claude Code skills, agents, and tool integrations covering content creation, image generation, development tools, data analysis, knowledge management, markdown processing, and multimedia research.",
   "owner": {
     "name": "DragonL641"
   },
   "metadata": {
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -15,17 +15,17 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./ai-writing-assistant",
-        "./blog-post-writer",
-        "./content-digest",
-        "./article-review",
-        "./branded-content",
-        "./commercial-brief",
-        "./content-rewriting-2601",
-        "./podcast-script-generator",
-        "./topic-scout",
-        "./topic-spinoff",
-        "./your-tech-panel"
+        "./skills/ai-writing-assistant",
+        "./skills/blog-post-writer",
+        "./skills/content-digest",
+        "./skills/article-review",
+        "./skills/branded-content",
+        "./skills/commercial-brief",
+        "./skills/content-rewriting-2601",
+        "./skills/podcast-script-generator",
+        "./skills/topic-scout",
+        "./skills/topic-spinoff",
+        "./skills/your-tech-panel"
       ]
     },
     {
@@ -34,17 +34,17 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./image-generate",
-        "./image-brand-to-logo",
-        "./image-article-to-cover",
-        "./image-article-to-illustration",
-        "./image-content-to-infographic",
-        "./image-content-to-slides",
-        "./image-content-to-xhs",
-        "./image-story-to-comic",
-        "./image-story-to-storyboard",
-        "./image-skill-factory",
-        "./frontend-ui-designer"
+        "./skills/image-generate",
+        "./skills/image-brand-to-logo",
+        "./skills/image-article-to-cover",
+        "./skills/image-article-to-illustration",
+        "./skills/image-content-to-infographic",
+        "./skills/image-content-to-slides",
+        "./skills/image-content-to-xhs",
+        "./skills/image-story-to-comic",
+        "./skills/image-story-to-storyboard",
+        "./skills/image-skill-factory",
+        "./skills/frontend-ui-designer"
       ]
     },
     {
@@ -53,24 +53,23 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./playwright-cli",
-        "./project-checkup",
-        "./ops-assistant",
-        "./my-product-manager",
-        "./cs-knowledge-doc"
+        "./skills/cs-knowledge-doc",
+        "./skills/my-product-manager",
+        "./skills/ops-assistant",
+        "./skills/project-checkup"
       ]
     },
     {
       "name": "data-analysis",
-      "description": "Data analysis and aggregation skills: full-pipeline data analysis, RSS feed aggregation, remote job tracking, US stock morning brief, and product strategy analysis.",
+      "description": "Data analysis and aggregation skills: full-pipeline data analysis, RSS feed aggregation, remote job tracking, and product strategy analysis.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./data-analysis",
-        "./rss-aggregator",
-        "./workingnomads-jobs",
-        "./stock-US-morning-brief",
-        "./product-strategy-analyzer"
+        "./skills/data-analysis",
+        "./skills/rss-aggregator",
+        "./skills/workingnomads-jobs",
+        "./skills/workingnomads-scraper",
+        "./skills/product-strategy-analyzer"
       ]
     },
     {
@@ -79,11 +78,11 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./mem-record",
-        "./mem-query",
-        "./mem-file-scan",
-        "./mem-weekly",
-        "./mem-monthly"
+        "./skills/mem-record",
+        "./skills/mem-query",
+        "./skills/mem-file-scan",
+        "./skills/mem-weekly",
+        "./skills/mem-monthly"
       ]
     },
     {
@@ -92,8 +91,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./md-cjk-layout-optimize",
-        "./md-optimized-to-html"
+        "./skills/md-cjk-layout-optimize",
+        "./skills/md-optimized-to-html"
       ]
     },
     {
@@ -102,11 +101,19 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./drawio",
-        "./deep-research",
-        "./find-skills",
-        "./find-mcps",
-        "./remotion-video"
+        "./skills/deep-research",
+        "./skills/find-skills",
+        "./skills/find-mcps",
+        "./skills/remotion-video"
+      ]
+    },
+    {
+      "name": "external-tools",
+      "description": "External tool integrations: Playwright browser automation CLI and Draw.io diagram creation via MCP server.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./external/playwright-cli"
       ]
     }
   ]
