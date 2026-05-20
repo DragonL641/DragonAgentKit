@@ -107,14 +107,5 @@
         "./skills/remotion-video"
       ]
     },
-    {
-      "name": "external-tools",
-      "description": "External tool integrations: Playwright browser automation CLI and Draw.io diagram creation via MCP server.",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./external/playwright-cli"
-      ]
-    }
   ]
 }

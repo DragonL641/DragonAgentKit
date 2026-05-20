@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 DragonAgentKit 是一个跨平台 AI Skill 集合仓库，包含 43 个独立模块，兼容 Claude Code、Codex CLI、OpenCode、Gemini CLI 等 AI 编码工具。每个模块是自包含的文件夹，提供特定领域的知识、工作流和工具集成。
 
+本仓库只包含自研 Skill，不包含外部第三方 Skill 的本地副本。
+
 **这不是一个传统软件项目**——没有统一的 build/test/lint 流程。每个模块是独立的。
 
 ## 仓库结构
@@ -16,12 +18,11 @@ DragonAgentKit/
 │   ├── 知识型/        # 17 个：Claude 自动触发，注入知识/指南
 │   ├── 动作型/        # 17 个：用户 /name 主动调用，执行具体动作
 │   └── 流水线型/      # 9 个：可作子 agent 运行，多阶段复杂流水线
-├── external/          # 非原创的外部集成
-│   └── playwright-cli/# Playwright 浏览器自动化
-├── docs/              # 项目文档
 └── .claude-plugin/
-    └── marketplace.json
+    └── marketplace.json  # Plugin Marketplace 注册配置（7 个 plugin packs）
 ```
+
+> `agents/`、`commands/`、`docs/` 为预留目录，当前为空。
 
 ## Skill 三层分层
 
@@ -88,7 +89,6 @@ skill-name/
 - **知识管理** (5): mem-record, mem-query, mem-file-scan, mem-weekly, mem-monthly
 - **Markdown 工具** (2): md-cjk-layout-optimize, md-optimized-to-html
 - **多媒体/研究** (4): deep-research, find-skills, find-mcps, remotion-video
-- **外部工具** (1): playwright-cli
 
 ## Skill 开发规范
 
@@ -102,12 +102,24 @@ skill-name/
 - 不要在 skill 中创建 README.md、CHANGELOG.md 等辅助文档
 - 使用祈使句/不定式形式编写指令
 
+### 新建 Skill 工作流
+
+1. 在 `skills/` 下创建目录，命名为 `skill-name`
+2. 创建 `SKILL.md`，填写 frontmatter（根据类型选择字段）：
+   - 知识型：仅需 `name` + `description`
+   - 动作型：加 `disable-model-invocation: true` + `argument-hint`
+   - 流水线型：加 `context: fork`
+3. 按需添加 `scripts/`、`references/`、`assets/` 子目录
+4. 在 `.claude-plugin/marketplace.json` 的对应 plugin pack 中注册新 skill 路径
+5. 更新本文件中的分类列表（如 skill 数量变化）
+6. 验证：确认 SKILL.md frontmatter 格式正确、脚本可执行、marketplace.json 路径有效
+
 ## 注意事项
 
 - `.idea/` 目录是 IDE 配置，不需要关注
 - `.dragonskills/` 目录用于集中管理 API 密钥和凭证（已 gitignore）
-- `.claude-plugin/marketplace.json` 是 Plugin Marketplace 注册配置，定义了 8 个 plugin pack
 - skill 中的脚本语言以 Python 为主，少量 TypeScript/JavaScript（image-generate、workingnomads-jobs）
+- `.claude-plugin/marketplace.json` 版本号当前为 `0.2.0`
 
 ## Plugin Marketplace
 
@@ -125,7 +137,6 @@ skill-name/
 /plugin install knowledge-management@dragon-agent-kit
 /plugin install markdown-tools@dragon-agent-kit
 /plugin install multimedia-research@dragon-agent-kit
-/plugin install external-tools@dragon-agent-kit
 ```
 
-可用的 8 个 plugin packs：content-creation、image-design、dev-tools、data-analysis、knowledge-management、markdown-tools、multimedia-research、external-tools
+可用的 7 个 plugin packs：content-creation、image-design、dev-tools、data-analysis、knowledge-management、markdown-tools、multimedia-research
